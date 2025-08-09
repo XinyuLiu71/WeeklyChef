@@ -1,24 +1,38 @@
-//
-//  ContentView.swift
-//  WeeklyChef
-//
-//  Created by Xinyu Liu on 2025/8/9.
-//
-
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject private var dataManager = DataManager()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView {
+            FridgeView()
+                .tabItem {
+                    Image(systemName: "refrigerator")
+                    Text("冰箱")
+                }
+            
+            RecipeView()
+                .tabItem {
+                    Image(systemName: "book.closed")
+                    Text("菜谱")
+                }
+            
+            RecommendationsView()
+                .tabItem {
+                    Image(systemName: "lightbulb")
+                    Text("推荐")
+                }
+            
+            SettingsView()
+                .tabItem {
+                    Image(systemName: "gear")
+                    Text("设置")
+                }
         }
-        .padding()
+        .environmentObject(dataManager)
     }
 }
 
 #Preview {
     ContentView()
-}
+} 

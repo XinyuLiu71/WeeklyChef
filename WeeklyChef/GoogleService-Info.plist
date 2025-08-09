@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyBbsyiwnmLBMH323ogJ7SM3qdQIirHdY6E</string>
+	<key>GCM_SENDER_ID</key>
+	<string>422932464638</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.yourcompany.WeeklyChef</string>
+	<key>PROJECT_ID</key>
+	<string>weeklychef-firebase</string>
+	<key>STORAGE_BUCKET</key>
+	<string>weeklychef-firebase.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:422932464638:ios:da1c2ed740b193aabc36af</string>
+</dict>
+</plist>
